@@ -1,0 +1,62 @@
+.main-text {
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+.bt {
+    background-color:orange;
+    color:orange;
+}
+
+* {
+    border-radius: 0 !important;
+  }
+
+.btn-space {
+    height: 500px;
+    background-image: url('cFood.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% auto;
+    background-position-y: -280px;
+}
+
+.btn-item {
+    width: 600px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+button {
+
+    margin: 5px 5px;
+    
+}
+
+.max{
+        display: flex;
+        flex-wrap: nowrap;
+        list-style-type: none;
+      }
+.max li {
+        height: 20vh;
+        flex-grow: 1;
+      }
+.max img {
+        max-height: 100%;
+        min-width: 100%;
+        object-fit: cover;
+        vertical-align: bottom;
+      }
+.max .thumbnail:hover {
+        position:relative;
+        padding: 2px;
+        height:auto;
+        display:block;
+        z-index:999;
+    }
